@@ -2,14 +2,15 @@
 
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
 import { Pagination } from "swiper/modules"
 import { motion } from 'framer-motion';
 import mobile1 from "../../assets/mobile/mobile1.png"
 import mobile2 from "../../assets/mobile/mobile2.png"
 import { ArrowUpRight } from "lucide-react";
 import "./Ourservice.css"
+import "swiper/css";
+import "swiper/css/pagination"
+
 export default function Ourservice() {
   interface CardData {
     id: number;
