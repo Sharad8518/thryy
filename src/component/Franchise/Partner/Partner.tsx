@@ -1,5 +1,4 @@
 
-import { Users, Briefcase, Globe, Star } from "lucide-react";
 import circle from "../../../assets/Icon/circle.png"
 import location from "../../../assets/Icon/location.png"
 import setting from "../../../assets/Icon/setting.png"
