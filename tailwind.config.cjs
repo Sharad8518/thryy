@@ -1,4 +1,9 @@
-module.exports = {
+// tailwind.config.js
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}", // make sure this is included
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -7,4 +12,5 @@ module.exports = {
       },
     },
   },
-};
+  plugins: [],
+}
