@@ -1,13 +1,7 @@
 {
-  "compilerOptions": {
-    "jsx": "react-jsx",
-    "strict": true,
-    "skipLibCheck": true,
-    "moduleResolution": "node",
-    "module": "esnext",
-    "target": "esnext",
-    "isolatedModules": true,
-    "esModuleInterop": true,
-  },
-  "include": ["src"]
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }
