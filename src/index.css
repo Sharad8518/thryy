@@ -1,4 +1,4 @@
-/* 1. Define fonts */
+/* 1. Define fonts first */
 @font-face {
   font-family: 'Playfair Display';
   src: url('./assets/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
@@ -15,10 +15,19 @@
   font-display: swap;
 }
 
-/* 2. Tailwind directives (keep only these) */
+/* 2. Tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+@import "tailwindcss";
+
+
+@theme{
+    --font-play: 
+}
+
 /* 3. Your custom CSS below */
-/* e.g. custom styles */
