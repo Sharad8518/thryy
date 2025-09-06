@@ -23,5 +23,11 @@
 
 
 
+@import "tailwindcss";
+
+
+@theme{
+    --font-play: 
+}
 
 /* 3. Your custom CSS below */
